@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int marks;
+    printf("Enter your marks: ");
+    scanf("%d", &marks);
+    if (marks>=75){
+        printf("Congratulations! You have scored distinction!");
+    }
+    else if (marks>=60){
+        printf("Congratulations! You have got first class!");
+    }
+    else if (marks>=35){
+        printf("You have passed.");
+    }
+    else {
+        printf("You have failed.");
+    }
+    return 0;
+}
